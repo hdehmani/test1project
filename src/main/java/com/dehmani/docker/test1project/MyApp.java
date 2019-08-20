@@ -15,7 +15,7 @@ public class MyApp {
 
 		Color color = new Color();
 
-		color.setColor("blue");
+		color.setColor("GREEN");
 		color.setNumber(111222);
 
 		System.out.println("The current world Customer " + customer.getFirstname() + " " + customer.getLastname()
