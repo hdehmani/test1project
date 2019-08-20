@@ -18,8 +18,8 @@ public class MyApp {
 		color.setColor("blue");
 		color.setNumber(111222);
 
-		System.out.println("Hello World from Customer " + customer.getFirstname() + " " + customer.getLastname()
+		System.out.println("The current world Customer " + customer.getFirstname() + " " + customer.getLastname()
 				+ " with id = " + customer.getId() + " and color = " + color.getColor() + " with color number = "
-				+ color.getNumber() + "!");
+				+ color.getNumber() + " says HELLO!!");
 	}
 }
