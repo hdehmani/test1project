@@ -4,8 +4,17 @@ public class Customer {
 
 	private String firstname;
 	private String lastname;
+	private String gender;
 	private int id;
-	
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
 	public String getFirstname() {
 		return firstname;
 	}
@@ -29,6 +38,5 @@ public class Customer {
 	public void setId(int id) {
 		this.id = id;
 	}
-
 
 }

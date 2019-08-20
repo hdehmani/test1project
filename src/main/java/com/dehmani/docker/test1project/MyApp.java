@@ -10,7 +10,8 @@ public class MyApp {
 		Customer customer = new Customer();
 		customer.setFirstname("Amir");
 		customer.setLastname("Dehmani");
-		customer.setId(999);
+		customer.setGender("male");
+		customer.setId(777);
 
 		System.out.println("Hello World from Customer " + customer.getFirstname() + " " + customer.getLastname()
 				+ " with id = " + customer.getId() + "!");
